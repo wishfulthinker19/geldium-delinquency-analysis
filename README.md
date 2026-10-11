@@ -34,8 +34,8 @@ Key variables included credit score, income, credit utilization, missed payments
 
 ## Project Deliverables
 
-- **`reports/`**: EDA report, predictive modelling plan, and stakeholder recommendations.
-- **`presentation/`**: Executive presentation outlining the proposed AI-powered collections strategy.
+- [Reports](./reports/): EDA report, predictive modelling plan, and stakeholder recommendations.
+- [Executive Presentation](./presentation/): AI-powered collections strategy.
 
 ## Concepts Explored
 
