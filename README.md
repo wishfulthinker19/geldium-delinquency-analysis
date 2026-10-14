@@ -22,7 +22,7 @@ Key variables included credit score, income, credit utilization, missed payments
 
 - Identified missing values in income, loan balance, and credit score.
 - Found inconsistent employment labels and credit utilization values exceeding 100%.
-- Initial logistic regression evaluation produced an AUC of approximately **0.45**, indicating weak predictive performance.
+- A baseline test (logistic regression, random forest and gradient boosting, 5-fold cross-validation) scored AUC of about 0.40 to 0.45, which is no better than chance given the small sample. See `notebooks/baseline_model.ipynb`.
 - Customers with credit utilization of 30% or more showed a higher observed delinquency rate, although the difference was not statistically significant in the reported analysis.
 
 ## Recommendations
@@ -36,12 +36,13 @@ Key variables included credit score, income, credit utilization, missed payments
 
 - [Reports](./reports/): EDA report, predictive modelling plan, and stakeholder recommendations.
 - [Executive Presentation](./presentation/): AI-powered collections strategy.
+- [Baseline Model](./notebooks/): data checks and baseline model test.
 
 ## Concepts Explored
 
 Exploratory Data Analysis (EDA) · Predictive Analytics · Logistic Regression · Risk Assessment · Responsible AI · Business Reporting · Agentic AI Strategy
 
-*Note: Logistic regression was evaluated in the initial assessment, while the broader modelling framework and AI-driven collections system include proposed approaches. The system is not production-ready.*
+*Note: the model plan is conceptual. The baseline test in the notebook is a quick check, and the system described here is a proposal, not production-ready.*
 
 ## Key Learnings
 
